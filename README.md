@@ -1,21 +1,24 @@
 # Clothing-Retrieval
 
-**Purpose:**
-As a consumer, I found that it is very difficult to find the exact clothing articles online due to the limitation of rewritten description and tag. Thus, I tried to use my knowledge of machine learning(CNN) to create a AI system,. It will help to shopping experience better if adopted at an online merchant. This clothing retrieval system contains 2 models, semantic segmentation model & ImageNet. The first model is to separate the clothing item from the background, while second model turns the clothing image into feature vector. Finally, we use cloest euclidean distances of the vectors to decide which items are to be presented to the user.
+**Purpose:**</br>
+As a consumer, I found that it is very difficult to find the exact clothing articles online due to the limitation of rewritten descriptions and tags. Thus, I tried to use my knowledge of machine learning(CNN) to create an AI system. It aim to help on the shopping experience if adopted at an online merchant. This clothing retrieval system contains 2 pre-trained models, semantic segmentation model & ImageNet. The first model is to separate the clothing item from the background, while second model turns the clothing image into feature vector. Finally, we use closest euclidean distances of the vectors to decide which items are to be presented to the user.</br>
+</br>
+**目的:**</br>
+對于喜歡網購衣服的我，常常因爲文字限制，很難精準找到我想要的衣服。所以，我用卷積神經網路希望增進網路上的購物體驗。這個系統使用兩個模型，semantic segmentation model & ImageNet。第一個模型旨在去除背景留下衣服。第二個模型旨在轉換影像成爲特徵截取。最後使用歐式距離來決定最相似的推薦衣服。
 
-**Demo**
-!(https://drive.google.com/file/d/1B70b7d2WE9Ux9fOiuxxGAwg9EdI6kgIT/view?usp=sharing)
+# Demo
+![demo](https://drive.google.com/file/d/1B70b7d2WE9Ux9fOiuxxGAwg9EdI6kgIT/view?usp=sharing)
 
-**Database**
+# Database
 Web-crawl a Taiwanese online clothing merchant, net, and create a fake clothing merchant database of 600 items for the purpose of the project.
 
-requirment
+# Requirment
 - Python 3.5+
 - PyTorch 1.0.0+
 - mmcv
 
-# installment - As of Aug, 2021
-'''
+# Installment - As of Aug, 2021
+```
 git clone --recursive https://github.com/open-mmlab/mmfashion.git
 cd ~/mmfashion/
 python setup.py install --user
@@ -24,12 +27,13 @@ cd ~/mmfashion/mmdetection/
 pip install -v --user -e .
 cd ~/coco/PythonAPI/
 python setup.py install --user
-'''
+```
 
 # Reference
-https://github.com/open-mmlab/mmfashion
+https://github.com/open-mmlab/mmfashion </br>
 https://www.net-fashion.net/
 
-acknowledgement
-*Proposed and led a team of 5 members to create a machine learning system to retrieve clothes from a database when a user provide a picture as a request. </br>
-*Award: TBA </br>
+# Acknowledgement: </br>
+This is an AIA term project which led by me with a team of 5 members, 劉宏毅, 潭馳澔, 陳志寧, 陳奕如。
+
+Award: TBA </br>
