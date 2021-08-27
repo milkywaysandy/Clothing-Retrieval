@@ -38,7 +38,7 @@ This is an AIA term project which led by me with a team of 5 members, 劉宏毅,
 
 Award: TBA </br>
 
-#Note:
+# Note: </br>
 clothing_retrieval_as_app.py is the final version of project in http server format. </br>
 clothing_retrieval.ipynb uses semantic segmentation model & ImageNet.</br>
 clothing_retrieval_v2.ipynb uses semantic segmentation model & mmfashion classification model.</br>
