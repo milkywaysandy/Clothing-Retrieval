@@ -7,7 +7,7 @@ As a consumer, I found that it is very difficult to find the exact clothing arti
 對于喜歡網購衣服的我，常常因爲文字限制，很難精準找到我想要的衣服。所以，我用卷積神經網路希望增進網路上的購物體驗。這個系統使用兩個模型，semantic segmentation model & ImageNet。第一個模型旨在去除背景留下衣服。第二個模型旨在轉換影像成爲特徵截取。最後使用歐式距離來決定最相似的推薦衣服。
 
 # Demo
-![demo](https://user-images.githubusercontent.com/63726744/131050359-0e91ff06-f10d-4384-b247-eff9056b13ac.mp4)
+![clothing retrieval demo](https://user-images.githubusercontent.com/63726744/131051012-deef0a27-4a39-4e36-973d-6fd55eeb596e.jpg)
 
 # Database
 Web-crawl a Taiwanese online clothing merchant, net, and create a fake clothing merchant database of 600 items for the purpose of the project.
