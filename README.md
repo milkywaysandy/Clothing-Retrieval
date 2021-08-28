@@ -36,7 +36,9 @@ https://www.net-fashion.net/
 # Acknowledgement: </br>
 This is an AIA term project which led by me with a team of 5 members, 劉宏毅, 潭馳澔, 陳志寧, 陳奕如。
 
-Award: TBA </br>
+Award: 
+First Place for Taiwan AI Academy Technical Professional Program. AIA 第九期技術領袖班 專題競賽第一名
+Best Poster for Taiwan AI Academy Technical Professional Program. AIA 第九期技術領袖班 最佳人氣獎
 
 # Note: </br>
 clothing_retrieval_as_app.py is the final version of project in http server format. </br>
