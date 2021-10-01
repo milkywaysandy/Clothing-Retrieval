@@ -41,7 +41,7 @@ First Place for Taiwan AI Academy Technical Professional Program. AIA 第九期�
 Best Poster for Taiwan AI Academy Technical Professional Program. AIA 第九期技術領袖班 最佳人氣獎
 
 # Note: </br>
-clothing_retrieval_as_app.py is the final version of project in http server format. </br>
-clothing_retrieval.ipynb uses semantic segmentation model & ImageNet.</br>
-clothing_retrieval_v2.ipynb uses semantic segmentation model & mmfashion classification model.</br>
-clothing_retrieval_v3.ipynb sets up the system with mmfashion only. </br>
+Final.py is the final version of project in http server format. It is located under SRC.</br>
+clothing_retrieval.ipynb uses semantic segmentation model & ImageNet. It is located unders /Comparable models.</br>
+clothing_retrieval_v2.ipynb uses semantic segmentation model & mmfashion classification model. It is located unders /Comparable models</br>
+clothing_retrieval_v3.ipynb sets up the system with mmfashion only. It is located unders /Comparable models </br>
