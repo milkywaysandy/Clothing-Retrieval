@@ -19,7 +19,9 @@ Web-crawl a Taiwanese online clothing merchant, net, and create a fake clothing 
 
 # Installment 
 For python packing program:<br/>
-python3 -m pip install --index-url https://github.com/milkywaysandy/Clothing-Retrieval --no-deps clothing-retrieval<br/>
+```
+python3 -m pip install --index-url https://github.com/milkywaysandy/Clothing-Retrieval --no-deps clothing-retrieval
+```
 
 For mmfashion <br/>
 ```
