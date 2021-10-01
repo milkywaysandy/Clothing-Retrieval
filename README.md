@@ -18,10 +18,10 @@ Web-crawl a Taiwanese online clothing merchant, net, and create a fake clothing 
 - mmcv
 
 # Installment 
-For python packing program:
-python3 -m pip install --index-url https://github.com/milkywaysandy/Clothing-Retrieval --no-deps clothing-retrieval
+For python packing program:<br/>
+python3 -m pip install --index-url https://github.com/milkywaysandy/Clothing-Retrieval --no-deps clothing-retrieval<br/>
 
-For mmfashion 
+For mmfashion <br/>
 ```
 git clone --recursive https://github.com/open-mmlab/mmfashion.git
 cd ~/mmfashion/
