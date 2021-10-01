@@ -17,7 +17,11 @@ Web-crawl a Taiwanese online clothing merchant, net, and create a fake clothing 
 - PyTorch 1.0.0+
 - mmcv
 
-# Installment - As of Aug, 2021
+# Installment 
+For python packing program:
+python3 -m pip install --index-url https://github.com/milkywaysandy/Clothing-Retrieval --no-deps clothing-retrieval
+
+For mmfashion 
 ```
 git clone --recursive https://github.com/open-mmlab/mmfashion.git
 cd ~/mmfashion/
